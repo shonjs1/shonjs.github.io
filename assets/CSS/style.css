@@ -25,3 +25,49 @@ a {
     width: 90%
 /* can add shadow (42:49) */
 }
+
+.header {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+}
+
+#header_name {
+    margin-left: 1rem;
+    font-style: bold;
+}
+
+.header_nav_list {
+    display: flex;  
+}
+
+.header_nav_listItem {
+    list-style-type: none;
+    margin: 1rem;
+}
+
+.header_nav_listItem:hover {
+    background-color: gray;
+    border: 1px solid aqua;
+    border-radius: 1rem;
+    transition: none;
+}
+
+.profile {
+    display: flex;
+    justify-content: space-between;
+}
+
+.profile_image {
+    height: auto;
+    max-width: 100%;
+}
+
+.projects_title {
+    text-align: center;
+}
+
+.projects {
+    display: grid;
+    grid-template-columns: 1fr 1fr 1fr;
+}
