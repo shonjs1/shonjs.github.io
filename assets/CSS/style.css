@@ -1,50 +1,12 @@
-html {
-    color: #4cb691;
-    font: 18px/1.618 sans-serif;
-    font-family: sans-serif;
-}
+@import url('https://fonts.googleapis.com/css2?family=Lato:wght@300&family=Poppins:wght@300&display=swap');
 
-a {
-    color: seagreen;
-    text-decoration: none; 
-}
-
-.container {
-    background-color: #f5f5f5;
-}
-
-#header_name {
-    font-style: bold;
-}
-
-.header_nav_listItem {
-    list-style-type: none;
-}
-/* when mouse on nav items (about me) (projects) turn gray. */
-.header_nav_listItem:hover {
-    background-color: gray;
-    transition: none;
-}
-
-.footer {
-    background-color: lightgray;
-}
-
-.fa {
+* {
+    margin: 0;
+    padding: 0; 
+    box-sizing: border-box;
     text-decoration: none;
-}
-/* When cursor on linkedin/github symbol, opacity changes */
-.fa:hover {
-    opacity: .7;
-}
-/* create the linkedin color */
-.fa-linkedin{
-    background: #3b5998;
-    color: white;
-}
-
-/* create the github color */
-.fa-github {
-    background: #000;
-    color: white;
+    border: none; 
+    outline: none; 
+    scroll-behavior: smooth; 
+    font-family: 'Poppins', sans-serif;
 }
